@@ -15,7 +15,7 @@ export class AppComponent  {
     {today: "Thusday", msg: "Today Thusday"},
     {today: "Friday", msg: "Today Friday"},
     {today: "Saturday", msg: "Today Saturday"},
-    {today: "Sunday", msg: "Today Sunday"},
+    {today: "Sunday", msg: "Today Sunday"}
   ];
 
   constructor(){
