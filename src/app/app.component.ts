@@ -21,5 +21,10 @@ export class AppComponent  {
   constructor(){
     this.selectedDay = 0;
   }
+  selected = "----"
+  
+  update(e){
+    this.selected = e.target.value
+  }
 
 }

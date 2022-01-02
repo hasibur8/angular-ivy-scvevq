@@ -4,4 +4,12 @@
   This is Hasib.
 </p>
 <p>
-  <option> 
+<select #cricket (change)="update($event)">
+<option value="default">----</option>
+<option *ngFor="let day of days" [value]="player">
+    {{player}}
+</option>
+</select>
+
+<p>You selected {{selected}}</p>
+</p>
